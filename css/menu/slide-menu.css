@@ -1,0 +1,38 @@
+.nav-menu-slide ul ul {
+	display: none;
+	width: 100%;
+}
+
+.nav-menu-slide,
+.nav-menu-slide ul {
+	list-style: none;
+	position: relative;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	min-height: 36px;
+	height: 36px;
+}
+
+.nav-menu-slide ul:after {
+	content: ""; 
+	clear: both; 
+	display: block;
+}
+
+.nav-menu-slide ul li {
+	float: left;
+	margin: 0px 10px;
+	padding: 5px;
+}
+	
+.nav-menu-slide ul li a {
+	display: inline-block; 
+	text-decoration: none;
+}
+
+.nav-menu-slide ul ul {
+	left: 0px;
+	position: absolute; 
+	top: 100%;
+	z-index:10000;
+}

@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+
+	html{
+		font-size: 20px;
+	}
+	
+	html body .site-navigation{
+		height: 80px;
+	}
+
+	html body #content{
+		top: -135px;
+	}
+
+	.single article{
+		left:-10%;
+		top: -10px;
+		width: 120%;
+	}
+	
+	body{
+		width:100%;
+		overflow-x: hidden;
+	}
+	
+	body article .entry-content{
+		overflow: hidden;
+	}
+	
+	.single article .article-holder{
+		width: 79%;
+		left: 10%;
+		margin: 0% 10%;
+	}
+
+	.category article,
+	.author article,
+	.search article,
+	.tag article{
+		display: inline-block;
+		vertical-align: top;
+		width: 90%;
+		margin: 3% 2% 1% 4%;
+		-webkit-box-shadow: 6px 6px 14px 0px rgba(50, 50, 50, 1);
+		-moz-box-shadow:    6px 6px 14px 0px rgba(50, 50, 50, 1);
+		box-shadow:         6px 6px 14px 0px rgba(50, 50, 50, 1);
+	}
+
+	nav form{
+		float: right;
+		position: relative;
+		right: 5%;
+		margin-top: 2px;
+		top: -35px;
+	}
+
+	nav form input{
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		padding: 3px 10px;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	.taxonomy_picture{
+		width: 15%;
+		height: 150px;
+		padding: 10px;
+		margin: 10px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.taxonomy_content{
+		width: 70%;
+		margin: 10px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	html body div.site-branding{
+		font-size: 40px;
+		top: 80px;
+	}
+
+}

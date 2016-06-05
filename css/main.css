@@ -1,0 +1,480 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 16px;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+.sidebar-centre{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sidebar-left{
+	text-align: left;
+}
+
+.sidebar-left .site-branding{
+	margin-left: 2%;
+	top: 40px;
+}
+
+.sidebar-outside-left .site-branding{
+	position: relative;
+	left: 2%;
+	top: 40px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	text-align: center;
+	margin: 0 auto;
+}
+
+.sidebar-outside-centre .site-branding{
+	position: absolute;
+	width: 100%;
+	top: 40px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	text-align: center;
+	margin: 0 auto;
+}
+
+.sidebar-outside-left .site-branding h1{
+	float: left;
+	position: relative;
+	display: inline-block;
+	padding: 3px;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.sidebar-outside-centre .site-branding h1{
+	padding: 3px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.sidebar h1 a, 
+.sidebar p a{
+	text-decoration: none;
+}
+	
+.sidebar{
+	width: 102%;
+	left: -1%;
+	top: -60px;
+	position: relative;
+	-ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+	height: 210px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 75px;
+	overflow: hidden;
+}
+
+.sidebar header{
+	-ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+}
+
+.site-branding{
+	position: relative;
+	top: 40px;
+}
+
+nav.nav-menu-standard{
+	height: 40px;
+}
+
+article{
+	width: 110%;
+	left: -5%;
+	position: relative;
+	top: -20px;
+	-ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+    transform: rotate(3deg);
+	overflow: hidden;
+}
+
+.article-holder{
+	-ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+    transform: rotate(-3deg);
+	width: 90%;
+	margin: 1% 5% 3% 5%;
+}
+
+.article-inside{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.site-navigation{
+	position: relative;
+	top: -110px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 8px;
+	vertical-align: middle;
+	border-top: 7px solid;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+}
+
+.site-navigation{
+	left: -5px;
+	padding-top: 3px;
+	width: 105%;
+	z-index: 10;
+	font-size: 18px;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+#main{
+	padding-top: 30px;
+}
+
+#content{
+	position:relative;
+	top: -118px;
+}
+
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+
+article .entry-title{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	display: inline-block;
+	padding: 10px 120px;
+	margin-bottom: 10px;
+}
+
+article .entry-title a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+article .entry-content{
+	text-align: left;
+	padding: 15px;
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer#colophon{
+	width: 95%;
+	margin: 2.5%;
+	position: relative;
+	top: -100px;
+}
+
+#footer-content{
+	width: 90%;
+	padding: 5%;
+}
+
+.entry-footer{
+	text-align: left;
+}
+
+.entry-footer div{
+	text-align: left;
+	margin-top: 15px;
+}
+
+.entry-footer div h6{
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.entry-footer div h6.meta_label{
+	clear: both;
+	text-transform: uppercase;
+	position: relative;
+	margin-right: 10px;
+}
+
+.entry-footer a{
+	text-decoration: none;
+}
+
+#comments{
+	width: 95%;
+	text-align: center;
+	font-size: 20px;
+}
+
+#comments #form-allowed-tags{
+	font-size: 15px;
+}
+
+#comments label{
+	vertical-align: top;
+}
+
+.category #content,
+.author #content,
+.tag #content{
+	margin-top: 30px;
+}
+
+.category article,
+.author article,
+.search article,
+.tag article{
+	display: inline-block;
+	vertical-align: top;
+	width: 29%;
+	margin: 1% 0% 1% 4%;
+	left: -1%;
+	-webkit-box-shadow: 6px 6px 14px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    6px 6px 14px 0px rgba(50, 50, 50, 1);
+	box-shadow:         6px 6px 14px 0px rgba(50, 50, 50, 1);
+}
+
+.category .sidebar,
+.author .sidebar,
+.search .sidebar,
+.tag .sidebar{
+	-webkit-box-shadow: 6px 6px 14px 7px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    6px 6px 14px 7px rgba(50, 50, 50, 1);
+	box-shadow:         6px 6px 14px 7px rgba(50, 50, 50, 1);
+}
+
+.category article .entry-title,
+.category article .page-footer,
+.search article .entry-title,
+.search article .page-footer,
+.author article .entry-title,
+.author article .page-footer,
+.tag article .entry-title,
+.tag article .page-footer{
+	padding: 10px;
+}
+
+.category .page-header,
+.category .page-footer,
+.home .page-footer,
+.author .page-header,
+.author .page-footer,
+.search .page-header,
+.search .page-footer,
+.tag .page-header,
+.tag .page-footer{
+	position: relative;
+	top: -20px;
+	font-size: 20px;
+	width: 95%;
+	margin: 0% 2.5%;
+}
+
+.home .page-footer,
+.category .page-footer,
+.search .page-footer,
+.author .page-footer,
+.tag .page-footer{
+	top: 0px;
+}
+
+.page-header .page-title,
+.page-footer .page-title,
+.page-footer .pagination,
+.page-header .taxonomy-description,
+.page-footer .taxonomy-description{
+	padding: 10px;
+}
+
+.tag #content .page-footer,
+.search #content .page-footer,
+.category #content .page-footer,
+.author #content .page-footer{
+	margin-bottom: 10px;
+}
+
+.page-footer .taxonomy-description a{
+	text-decoration: none;
+}
+
+.page-footer h1 a,
+.page-footer h1 span{
+	text-decoration: none;
+	padding: 2px 10px;
+}
+
+footer.page-footer h1.pagination span.more{
+	text-transform:uppercase;
+	padding: 0px 10px 0px 0px;
+}
+
+.site-navigation form{
+	float: right;
+	position: relative;
+	right: 5%;
+	margin-top: 2px;
+	top: -35px;
+}
+
+.site-navigation form input{
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	padding: 3px 10px;
+	font-family: 'Oswald', sans-serif;
+}
+
+section.not-found{
+	width: 90%;
+	margin: 5%;
+}
+
+section.not-found .page-content{
+	margin-bottom: 10px;
+	padding: 20px 10px;
+}
+
+.featured-content{
+	margin-top: 30px;
+}
+
+.featured-content article .entry-content{
+	font-size:80%;
+}
+
+.taxonomy_picture{
+	width: 20%;
+	height: 200px;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.taxonomy_content{
+	width: 70%;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#tag_cloud{
+	overflow: hidden;
+}
+
+.comment-body{
+	width: 90%;
+	left: 0%;
+	margin: 1% 5%;
+	position: relative;
+	overflow: hidden;
+	padding: 10px;
+}
+
+body .comment-list article{
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	top: 0px;
+	text-align: left;
+	left: 0px;
+	width: 90%;
+	margin: 1% 5%;
+	padding: 10px;
+}
+
+.comment-respond{
+	top: 0px;
+	left: 0px;
+	width: 90%;
+	margin: 1% 5%;
+	padding: 10px;
+}
+
+.comment-reply-title{
+	font-size: 30px;
+}
+
+.comment-form-comment{
+	text-align: left;
+	margin: 1%;
+}
+
+.comment-form-comment textarea{
+	width: 99%;
+}	
+
+.comments-title{
+	position: relative;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: left;
+	width: 90%;
+	padding: 10px;
+	margin: 2% 5%;
+}
+
+input[type=submit]{
+	padding: 5px;
+	margin: 5px;
+	font-family: "Oswald", sans-serif;
+	border: none;
+	cursor: pointer;
+}
+
+footer#colophon div div div{
+	display: inline-block;
+}
+
+footer#colophon div div div,
+footer#colophon div div nav{
+	width: 96%;
+	margin: 0% 2%;
+	display: inline-block;
+}
+
+footer#colophon div div div aside{
+	padding: 2%;
+	margin: 10px 0px;
+	width: 96%;
+}
+
+footer#colophon div div li{
+	list-style: none;
+}
+
+.widget-title{
+	font-size: 20px;
+}
+
+.sticky{
+
+}
